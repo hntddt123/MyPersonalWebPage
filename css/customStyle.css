@@ -2,6 +2,11 @@ a:link{
 	color: black;
 }
 
+p {
+    text-align: justify;
+    letter-spacing: 0.6px;
+}
+
 .bg {
     background-image:url("../images/Taipei.jpg");
     background-size: cover;
@@ -18,8 +23,18 @@ a:link{
 
 .container {
 	padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.dropdown-menu {
+    min-width: 40px;
+    background-color: black;
+}
+
+.dropdown-item{
+    padding: 5px;
+    display: block;
+}
 
 .img-circle {
     padding-top: 10px;
@@ -38,11 +53,18 @@ a:link{
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(230,230,230,1)),to(rgba(230,230,20,0.4)), color-stop(0,rgba(255,255,255,0)));
 }
 
+.navbar-nav>li {
+    display: inline-block;
+}
+
 .navbar-custom {
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 	margin-bottom: 0;
 	border-radius: 0;
     background-color:black;
-    color:#333;
 }
 
 .navbar-custom .navbar-toggle {
