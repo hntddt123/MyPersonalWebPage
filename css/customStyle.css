@@ -31,9 +31,9 @@ p {
     background-color: black;
 }
 
-.navbar-nav .open .dropdown-menu{
-    position: absolute;
+#dropdownMenu:not(:hover) {
     background-color: black;
+    color: white;
 }
 
 .dropdown-item{
@@ -54,12 +54,9 @@ p {
 .progress {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(230,230,230,0.3)),to(rgba(230,230,230,0)), color-stop(.2,#fff) );
 }
+
 .progress-bar {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(230,230,230,1)),to(rgba(230,230,20,0.4)), color-stop(0,rgba(255,255,255,0)));
-}
-
-.navbar-nav>li {
-    display: inline-block;
 }
 
 .navbar-custom {
@@ -67,62 +64,83 @@ p {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-	margin-bottom: 0;
-	border-radius: 0;
+    margin-bottom: 0;
+    border-radius: 0;
     background-color:black;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+}
+
+.navbar-nav .open .dropdown-menu{
+    position: absolute;
+    background-color: black;
 }
 
 .navbar-custom .navbar-toggle {
     background-color: #333;
 }
+
 .navbar-custom .navbar-brand {
     color: #ffffff;
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
     color: #333;
 }
+
 .navbar-custom .navbar-nav > li > a {
     color: #fff;
 }
+
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
     color: #333;
 }
+
 .navbar-custom .navbar-nav > .active > a, 
 .navbar-custom .navbar-nav > .active > a:hover, 
 .navbar-custom .navbar-nav > .active > a:focus {
     color: #333;
     background-color: #333;
 }
+
 .navbar-custom .navbar-nav > .open > a, 
 .navbar-custom .navbar-nav > .open > a:hover, 
 .navbar-custom .navbar-nav > .open > a:focus {
     color: #ffffff;
     background-color: #333;
 }
+
 .navbar-custom .navbar-nav > .dropdown > a .caret {
     border-top-color: #333;
     border-bottom-color: #333;
 }
+
 .navbar-custom .navbar-nav > .dropdown > a:hover .caret,
 .navbar-custom .navbar-nav > .dropdown > a:focus .caret {
     border-top-color: #333;
     border-bottom-color: #333;
 }
+
 .navbar-custom .navbar-nav > .open > a .caret, 
 .navbar-custom .navbar-nav > .open > a:hover .caret, 
 .navbar-custom .navbar-nav > .open > a:focus .caret {
     border-top-color: #333;
     border-bottom-color: #333;
 }
+
 .navbar-custom .navbar-toggle {
     border-color: #333;
 }
+
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
     background-color: #333;
 }
+
 .navbar-custom .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
