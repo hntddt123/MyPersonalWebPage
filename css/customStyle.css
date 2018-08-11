@@ -38,7 +38,11 @@ p {
 
 .dropdown-item{
     padding: 5px;
-    display: inline-block;
+    display: block;
+}
+
+.dropdown-item:hover{
+    background-color: #333;
 }
 
 .img-circle {
