@@ -36,11 +36,6 @@ p {
     color: white;
 }
 
-#dropdownMenu:not(:focus) {
-    background-color: black;
-    color: white;
-}
-
 .dropdown-item{
     padding: 5px;
     display: block;
