@@ -60,12 +60,8 @@ p {
 	z-index:1;
 }
 
-.progress {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(230,230,230,0.3)),to(rgba(230,230,230,0)), color-stop(.2,#fff) );
-}
-
-.progress-bar {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(230,230,230,1)),to(rgba(230,230,20,0.4)), color-stop(0,rgba(255,255,255,0)));
+.progress-bar-success {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(230,230,230,1)),to(rgba(255,230,20,0.6)), color-stop(0,rgba(255,255,255,0)));
 }
 
 .navbar-custom {
