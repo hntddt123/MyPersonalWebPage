@@ -34,6 +34,7 @@ p {
 .dropdown-menu {
     min-width: 40px;
     background-color: black;
+    z-index: 25000 !important;
 }
 
 #dropdownMenu:not(:hover) {
